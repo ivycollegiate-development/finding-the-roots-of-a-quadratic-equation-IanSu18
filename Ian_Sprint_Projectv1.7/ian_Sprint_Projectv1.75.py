@@ -2,8 +2,8 @@ import cmath
 
 def calculate_roots(a, b, c):
     discriminant = b**2 - 4*a*c
-    root_1 = 
-    root_2 = 
+    root_1 = (-b + (discriminant))/2*a
+    root_2 = (-b - (discriminant))/2*a
     return root_1, root_2
   #  if discriminant > 0:
 
